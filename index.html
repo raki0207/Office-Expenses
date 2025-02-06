@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Office Expenses</title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      padding-top: 60px;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+      margin-right: 1rem;
+    }
+
+    .navbar-nav .nav-link.active {
+      color: skyblue;
+      font-weight: bold;
+    }
+
+    .nav-item+.nav-item {
+      margin-left: 10px;
+    }
+
+    /* Hero section container */
+    .hero-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f8f9fa;
+      /* Background color */
+      background-image: url('../Frontend/assets/images/loginbg.jpg');
+      background-size: cover;
+      background-position: center;
+      color: black;
+      text-align: center;
+    }
+
+    .hero-section .container {
+      max-width: 1200px;
+      padding: 0 15px;
+      z-index: 1;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-section p {
+      font-size: 1.25rem;
+      color: #000;
+      margin-bottom: 2rem;
+    }
+
+    .hero-section .btn {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+      margin-right: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Office Expenses</a>
+      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+        data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="btn btn-primary" href="../Frontend/pages/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-success" href="../Frontend/pages/Register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section with background and centered content -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row justify-content-center align-items-center" style="height: 100vh;">
+        <div class="col-md-6 text-center">
+          <h1>"Streamlining Your Office Finances with Precision and Efficiency"</h1>
+          <p>Optimizing your office expenses for better financial control and growth</p>
+          <a class="btn btn-primary" href="../Frontend/pages/login.html">Login</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 mt-4 w-100"
+    style="background: rgba(255, 255, 255, 0.6); backdrop-filter: blur(10px); position: fixed; bottom: 0;">
+    <p class="mb-0">&copy; 2025 Office Expense Tracker. All rights reserved.</p>
+  </footer>
+
+  <script crossorigin="anonymous" integrity="sha384-oBqDVmMz4fnFO9gybBogGzOgQpeKBmBIpJRrg5a2mQ0PpTB1zY6kzW5d5p6MT6sy"
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script crossorigin="anonymous" integrity="sha384-pZfHC6Q6Xl6/3eK6e1C5i5u5p6MT6sy"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
